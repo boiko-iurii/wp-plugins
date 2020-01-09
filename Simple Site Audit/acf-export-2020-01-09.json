@@ -1,0 +1,259 @@
+[
+    {
+        "key": "group_5e132ae43ac3c",
+        "title": "LocalBusiness",
+        "fields": [
+            {
+                "key": "field_5e132b9ea189b",
+                "label": "telephone",
+                "name": "lb_telephone",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5e132bb3a189c",
+                "label": "priceRange",
+                "name": "lb_pricerange",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5e132bd9a189d",
+                "label": "Days Open",
+                "name": "lb_days_open",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Monday": "Понедельник",
+                    "Tuesday": "Вторник",
+                    "Wednesday": "Среда",
+                    "Thursday": "Четверг",
+                    "Friday": "Пятница",
+                    "Saturday": "Суббота",
+                    "Sunday": "Воскресенье"
+                },
+                "allow_custom": 0,
+                "default_value": [],
+                "layout": "vertical",
+                "toggle": 0,
+                "return_format": "value",
+                "save_custom": 0
+            },
+            {
+                "key": "field_5e15a553e758c",
+                "label": "Hours Open",
+                "name": "lb_hours_beginning",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1:00": "1:00",
+                    "2:00": "2:00",
+                    "3:00": "3:00",
+                    "4:00": "4:00",
+                    "5:00": "5:00",
+                    "6:00": "6:00",
+                    "7:00": "7:00",
+                    "8:00": "8:00",
+                    "9:00": "9:00",
+                    "10:00": "10:00",
+                    "11:00": "11:00",
+                    "12:00": "12:00",
+                    "13:00": "13:00",
+                    "14:00": "14:00",
+                    "15:00": "15:00",
+                    "16:00": "16:00",
+                    "17:00": "17:00",
+                    "18:00": "18:00",
+                    "19:00": "19:00",
+                    "20:00": "20:00",
+                    "21:00": "21:00",
+                    "22:00": "22:00",
+                    "23:00": "23:00",
+                    "00:00": "00:00"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 1,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5e15a8e020e4d",
+                "label": "Hours End",
+                "name": "lb_hours_end",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1:00": "1:00",
+                    "2:00": "2:00",
+                    "3:00": "3:00",
+                    "4:00": "4:00",
+                    "5:00": "5:00",
+                    "6:00": "6:00",
+                    "7:00": "7:00",
+                    "8:00": "8:00",
+                    "9:00": "9:00",
+                    "10:00": "10:00",
+                    "11:00": "11:00",
+                    "12:00": "12:00",
+                    "13:00": "13:00",
+                    "14:00": "14:00",
+                    "15:00": "15:00",
+                    "16:00": "16:00",
+                    "17:00": "17:00",
+                    "18:00": "18:00",
+                    "19:00": "19:00",
+                    "20:00": "20:00",
+                    "21:00": "21:00",
+                    "22:00": "22:00",
+                    "23:00": "23:00",
+                    "00:00": "00:00"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 1,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5e132c2ca189e",
+                "label": "address",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 1
+            },
+            {
+                "key": "field_5e132c76a189f",
+                "label": "addressLocality",
+                "name": "lb_addresslocality",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5e132cb4a18a0",
+                "label": "addressRegion",
+                "name": "lb_addressregion",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5e132cc8a18a1",
+                "label": "streetAddress",
+                "name": "lb_streetaddress",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "theme-general-settings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

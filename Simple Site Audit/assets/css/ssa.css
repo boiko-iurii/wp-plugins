@@ -1,106 +1,106 @@
-
-.site-audit {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.site-audit__inner {
-	display: flex;
-	flex-wrap: wrap;
-	margin-left: -15px;
-	margin-right: -15px;
-  box-shadow: 6px 6px 15px -4px #e2e2e2;
-}
-.site-audit__text,
-.site-audit__img {
-	padding-left: 15px;
-	padding-right: 15px;
-}
-.site-audit__text {
-	flex: 0 0 70%;
-	max-width: 70%;
-}
-.site-audit__img {
-	flex: 0 0 30%;
-	max-width: 30%;
-	display: flex;
-  align-items: center;
-}
-.site-audit__img img {
-	max-width: 100%;
-	height: auto;
-}
-@media (max-width: 767px) {
-	.site-audit__text {
-		flex: 0 0 100%;
-		max-width: 100%;
-	}
-	.site-audit__img {
-		display: none;
-	}
-}
-
-/* FAQ */
-.ssa-faq ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-.ssa-faq li {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font: inherit;
-	vertical-align: baseline;
-}
-.ssa-faq .ssa-faq__questions {
-}
-.ssa-faq .ssa-faq__item {
-	/*background-color: #d2d2d2;*/
-	margin-bottom: 15px;
-  border-radius: 10px;
-	/*position: relative;*/
-}
-.ssa-faq__question {
-	background: #f9f9f9;
-  border-radius: 10px;
-  cursor: pointer;
-	font-size: 20px;
-	line-height: 30px;
-	min-height: 70px;
-  padding: 20px 65px 20px 40px;
-	position: relative;
-}
-.ssa-faq__question:after {
-	content: '';
-	display: block;
-	width: 15px;
-	height: 15px;
-	border-left: 2px solid;
-	border-bottom: 2px solid;
-  position: absolute;
-  right: 40px;
-  top: 50%;
-  margin-top: -12px;
-  /*transform: rotateZ(-45deg);*/
-  transform: rotateZ(-0.125turn);
-  transform-origin: center;
-  transition: transform 0.5s ease;
-}
-.ssa-faq .ssa-faq__item .ssa-faq__answer {
-	display: none;
-	padding: 0 40px 1px;
-	/*height: 0%;*/
-	/*font-size: 0%;*/
-	/*transition: font-size 0.3s;*/
-	/*transition: height 1.3s;*/
-}
-
-.ssa-faq .ssa-faq__item.active .ssa-faq__answer {
-	/*display: none;*/
-	/*height: 100%;*/
-	/*font-size: 100%;*/
-	/*transition: height 1.3s;*/
-}
-.active .ssa-faq__question:after {
-  transform: rotateZ(0.375turn);
+
+.site-audit {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.site-audit__inner {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+  box-shadow: 6px 6px 15px -4px #e2e2e2;
+}
+.site-audit__text,
+.site-audit__img {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.site-audit__text {
+	flex: 0 0 70%;
+	max-width: 70%;
+}
+.site-audit__img {
+	flex: 0 0 30%;
+	max-width: 30%;
+	display: flex;
+  align-items: center;
+}
+.site-audit__img img {
+	max-width: 100%;
+	height: auto;
+}
+@media (max-width: 767px) {
+	.site-audit__text {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.site-audit__img {
+		display: none;
+	}
+}
+
+/* FAQ */
+.ssa-faq ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.ssa-faq li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+.ssa-faq .ssa-faq__questions {
+}
+.ssa-faq .ssa-faq__item {
+	/*background-color: #d2d2d2;*/
+	margin-bottom: 15px;
+  border-radius: 10px;
+	/*position: relative;*/
+}
+.ssa-faq__question {
+	background: #f9f9f9;
+  border-radius: 10px;
+  cursor: pointer;
+	font-size: 20px;
+	line-height: 30px;
+	min-height: 70px;
+  padding: 20px 65px 20px 40px;
+	position: relative;
+}
+.ssa-faq__question:after {
+	content: '';
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-left: 2px solid;
+	border-bottom: 2px solid;
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  margin-top: -12px;
+  /*transform: rotateZ(-45deg);*/
+  transform: rotateZ(-0.125turn);
+  transform-origin: center;
+  transition: transform 0.5s ease;
+}
+.ssa-faq .ssa-faq__item .ssa-faq__answer {
+	display: none;
+	padding: 0 40px 1px;
+	/*height: 0%;*/
+	/*font-size: 0%;*/
+	/*transition: font-size 0.3s;*/
+	/*transition: height 1.3s;*/
+}
+
+.ssa-faq .ssa-faq__item.active .ssa-faq__answer {
+	/*display: none;*/
+	/*height: 100%;*/
+	/*font-size: 100%;*/
+	/*transition: height 1.3s;*/
+}
+.active .ssa-faq__question:after {
+  transform: rotateZ(0.375turn);
 }
